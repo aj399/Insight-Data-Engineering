@@ -215,3 +215,8 @@ if __name__ == '__main__':
   
     fBlockedFile.write(block)
   
+  fLogFile.close()
+  fHostsFile.close()
+  fHoursFile.close()
+  fresourcesFile.close()
+  fBlockedFile.close()
