@@ -6,3 +6,4 @@ The solution is written in python 2.7.
 
 No external packages are used.
 
+For further details check out https://github.com/InsightDataScience/fansite-analytics-challenge
