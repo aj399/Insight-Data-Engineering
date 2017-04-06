@@ -164,7 +164,7 @@ if __name__ == '__main__':
   hostPattern = re.compile('.*?\s')
   timePattern = re.compile('\[.*\]')
   reqPatSub = re.compile('\".*\"')
-  reqPattern = re.compile('/.*?(\s|")')
+  reqPattern = re.compile('/.*?(\s|\")')
   statPattern = re.compile('HTTP/1.0\" 401')
   
   dictTemp = {}
