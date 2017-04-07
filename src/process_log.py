@@ -16,7 +16,7 @@ def reqFeatExt(line, hostPattern, timePattern, reqPatSub, reqPattern, statPatter
   Time = datetime.datetime.strptime(timeStr[:-6], '%d/%b/%Y:%H:%M:%S')
   reqSubGrp = reqPatSub.search(line)
   reqGrp = reqPattern.search(reqSubGrp.group(0))
-  if reqSubGrp.group(0) == None:
+  if reqGrp == None:
     req = "unknown"
   else:
     req = reqGrp.group(0)
