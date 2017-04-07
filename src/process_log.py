@@ -165,7 +165,7 @@ if __name__ == '__main__':
   fBlockedFile = open(blockedFile, 'w')
   
   hostPattern = re.compile('.*?\s')
-  timePattern = re.compile('\[.*\]')
+  timePattern = re.compile('\[.*?\]')
   reqPatSub = re.compile('\".*\"')
   reqPattern = re.compile('/.*?(\s|\")')
   statPattern = re.compile('HTTP/1.0\" 401')
